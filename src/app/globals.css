@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #ffffff;
+  --color-foreground: #1a1a1a;
+  --color-brand: #1D9E75;
+  --color-brand-light: #e6f7f0;
+  --color-secondary: #666666;
+  --color-surface: #F8F8F6;
+  --color-border: #e5e5e5;
+
+  /* 编制标签颜色 */
+  --color-bianzhi-shiye-bg: #EAF3DE;
+  --color-bianzhi-shiye-text: #27500A;
+  --color-bianzhi-beian-bg: #FAEEDA;
+  --color-bianzhi-beian-text: #633806;
+  --color-bianzhi-other-bg: #F1EFE8;
+  --color-bianzhi-other-text: #444441;
+
+  --color-favorite: #E24B4A;
+
+  --font-sans: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}
