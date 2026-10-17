@@ -1,6 +1,6 @@
 # PhDHunter — 博士个性化求职平台 PRD
 
-> v1.0-MVP | 2026-04-05
+> 历史需求稿 v1.0-MVP | 2026-04-05。当前产品职责、已实现与待验证范围见 [产品设计](docs/PRODUCT_PRD.md) 和 [完成度记录](docs/PROJECT_STATUS.md)。
 > 范围：浙江省 · 高校+事业单位+央国企研究院
 > 形态：纯Web页面，无需注册登录
 
@@ -93,7 +93,7 @@ Job {
   status: enum                     // "active" | "expired"
 
   // AI处理字段
-  embedding: vector(1536)
+  embedding: vector(1024)
   raw_description: text
   structured_tags: jsonb
 }
